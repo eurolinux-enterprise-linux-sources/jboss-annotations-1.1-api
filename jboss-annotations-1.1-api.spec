@@ -3,7 +3,7 @@
 
 Name: jboss-annotations-1.1-api
 Version: 1.0.1
-Release: 0.5%{namedreltag}%{dist}
+Release: 0.6%{namedreltag}%{dist}
 Summary: Common Annotations 1.1 API
 Group: Development/Libraries
 License: CDDL or GPLv2 with exceptions
@@ -83,6 +83,9 @@ cp -rp target/site/apidocs/* %{buildroot}%{_javadocdir}/%{name}/.
 
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.0.1-0.6.20120212git76e1a2
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.0.1-0.5.20120212git76e1a2
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
